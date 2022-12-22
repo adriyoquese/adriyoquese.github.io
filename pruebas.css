@@ -1,0 +1,75 @@
+.name {
+    
+    margin:10% auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.name div {
+    display: flex;
+    flex-direction: column;
+}
+#amr{
+    padding-right: 25%;
+}
+
+#amr h1 {
+   
+    --c:linear-gradient(#000 0 0); /* update the color here */
+  
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+     font-size:6.5em;
+    margin: 15%;
+
+    
+   background-color: red;
+    width: 155%;
+    text-align: center;
+  
+    
+}
+
+
+#amr h1:hover{
+   background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%; 
+}
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+body{
+  margin:0;
+  height:100vh;
+  display:grid;
+  place-content:center;  
+    
+}
+
+
+
+[id] {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+

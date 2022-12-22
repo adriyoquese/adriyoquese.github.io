@@ -1,0 +1,51 @@
+h1{
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+
+.paginados {
+    text-align: center;
+}
+
+.cajaimagenes  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1%;
+    margin: 1% 0;
+}
+
+.independientes {
+    width: 100%;
+    margin: 2%;
+}
+
+.independientes img {
+    width: auto;
+    transition: 1s;
+}
+
+.independientes img:hover {
+    transform: scale(120%);
+}
+
+
+#botoncito{
+    text-align: center;
+    margin: 5%;
+      
+} 
+ 
+#botoncito a{
+    color: black;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10em;
+    text-decoration: none;
+    
+}
+
+
+
+

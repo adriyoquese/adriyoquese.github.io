@@ -1,0 +1,78 @@
+
+@font-face{
+    font-family:'Ubuntu-Medium';
+    src: url("assests/Ubuntu-Medium.ttf");
+}
+
+
+html {
+        height: 100%;
+}
+
+body {
+    font-family: 'Ubuntu-Medium';
+    background-image: radial-gradient(grey, black);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 2% 0 ;
+    
+}
+
+
+.logo {
+    padding: 10%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header nav {
+    left: 0;
+    text-align: right;
+    float: right;
+    padding: 2%;
+}
+
+
+header nav a {
+    padding: 2%;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header nav a:hover{
+    background-color: grey;
+    border-radius: 2em;
+}
+
+.redes{
+   position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    bottom: 5%;
+    left: 1%;
+    
+}
+
+.redes a {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+
+
+
+
+
+
+
+
